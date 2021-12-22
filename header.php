@@ -384,5 +384,5 @@ elseif($_SERVER['REQUEST_METHOD']=='POST' && ((isset($_POST['LoginFaculty']))) &
 </html>
 
 <?php 
-  // header("Location:index.php"); 
+  header("Location:index.php"); 
 ?>
